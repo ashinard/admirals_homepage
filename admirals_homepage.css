@@ -1,3 +1,39 @@
+html{
+    display: block;
+}
+
 body{
-    text-align: center;
+    display: inline;
+    padding: 0px 10px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+div{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+
+#members{
+    width: 20%;
+}
+
+#main{
+    width: 70%;
+}
+
+footer{
+    display: flex;
+    position: relative;
+    min-height: 50px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
 }
