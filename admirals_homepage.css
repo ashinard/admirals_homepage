@@ -1,39 +1,74 @@
 html{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
 }
-
 body{
     display: inline;
-    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    width: 80%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gold;
 }
 
 h1{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     width: 100%;
+    padding-left: 100px;
 }
 
-div{
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    border-color: lightgray;
+.artcl{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 5px;
 }
 
-#members{
-    width: 20%;
+#team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 0px 10px;
+    background-color: white;
+    border-radius: 5px
+}
+
+.members{
+    display: block;
+    align-items: center;
+    margin: 5px 5px 10px 5px;
+    width: 75%;
 }
 
 #main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 10px 5px 5px;
     width: 70%;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
 }
 
 footer{
     display: flex;
     position: relative;
+    flex-wrap: wrap;
     min-height: 50px;
     background-color: gray;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
